@@ -8,6 +8,6 @@
 #ifndef _BUILD_VERSION_H_
 #define _BUILD_VERSION_H_
 
-#define AT_FSM_FW_VERSION "1.0.0"
+#define AT_FSM_FW_VERSION "1.0.1"
 
 #endif

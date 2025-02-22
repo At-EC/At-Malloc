@@ -15,7 +15,9 @@
 #define MEM_MALLOC_HEAP_SIZE_CONFIG (0x4)
 #endif
 
-void* mem_malloc(unsigned int size);
-void mem_free(void* p_addr);
+void *mem_malloc(unsigned int size);
+void mem_free(void *p_addr);
 unsigned int mem_free_size(void);
+bool mem_allocated(void *p_addr);
+
 #endif
